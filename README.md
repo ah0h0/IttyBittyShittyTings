@@ -1,7 +1,7 @@
 # IttyBittyShittyTings
 
 ## TOC - Table of Content
-- [boom](boom)
+- [boom](#boom)
 
 ## boom
 > [!NOTE]
