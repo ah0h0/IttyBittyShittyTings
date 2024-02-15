@@ -1,0 +1,12 @@
+import time
+
+def countdown_with_print():
+    """Prints a countdown from 10 to 0 on the same line, delays slightly between each value, and includes a fun message at the end."""
+
+    for i in range(10, -1, -1):  # Loop backwards from 10 to 0
+        print(i, end="\r")  # Print current value, overwrite previous with carriage return
+        time.sleep(0.5)  # Add a 0.5-second delay
+
+    print("Boom! ")  # Print the fun message after the countdown
+
+countdown_with_print()
